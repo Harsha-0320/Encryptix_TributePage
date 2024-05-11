@@ -1,0 +1,60 @@
+@import url(https://fonts.google.com/share?selection.family=Cinzel:wght@400..900);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(30, 17, 1, 0.8),rgba(30, 17, 1, 0.8)),url(https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Rajgad-Fort.jpg);
+    background-size: cover;
+    position: relative;
+    border: 5px solid #1a0c01;
+    font-family: 'Cinzel';
+    color: white;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    background: transparent;
+}
+
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+    background: transparent;
+}
+
+.header > .title{
+    margin-bottom: 1rem;
+    background: transparent;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: transparent;
+    color: white;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.tribute img{
+    max-width: 400px;
+    border-radius: 25px;
+    float: right;
+    padding-right: 20px;
+}
