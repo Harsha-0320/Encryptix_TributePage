@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-body{
+.banner{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(30, 17, 1, 0.8),rgba(30, 17, 1, 0.8)),url(https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Rajgad-Fort.jpg);
+    background: linear-gradient(rgba(1, 1, 30, 0.7),rgba(1, 1, 30, 0.7)),url(https://live.staticflickr.com/65535/52696833388_3701245586_b.jpg);
     background-size: cover;
     position: relative;
     border: 5px solid #1a0c01;
@@ -17,12 +17,6 @@ body{
     color: white;
 }
 
-.container{
-    max-width: 90rem;
-    margin: 2rem auto;
-    padding: 0px 2rem;
-    background: transparent;
-}
 
 .header{
     padding: 2rem;
@@ -34,6 +28,11 @@ body{
 .header > .title{
     margin-bottom: 1rem;
     background: transparent;
+    font-size: 2.6rem;
+}
+
+.header > .description{
+    font-size: 1.4rem;
 }
 
 .tribute{
@@ -54,7 +53,108 @@ body{
 
 .tribute img{
     max-width: 400px;
-    border-radius: 25px;
+    border-radius: 60px;
     float: right;
-    padding-right: 20px;
+    padding-right: 15px;
 }
+
+.bio{
+    margin: 4rem;
+    max-width: 95rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 60px;
+}
+
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bio > hr{
+    margin-top: 2rem;
+}
+
+.container{
+    width: 100%;
+    background: black;
+    height: 100vh;
+    align-items: center;
+}
+.container .title{
+
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(203, 94, 5);
+    padding-top: 20px;
+}
+
+.container .img-slider{
+    position: relative;
+    width: 1300px;
+    height: 80vh;
+    margin: 0;
+    background: black;
+}
+
+.container .img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 1300px;
+}
+
+.container .img-slider .slide img{
+    z-index: 1;
+    width: 1300px;
+    border-radius: 5px;
+    height: 80vh;
+    align-items: center;
+    padding-left: 160px;
+    padding-top: 30px;
+}
+
+.container .img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+    color: white;
+}
+
+.container .img-slider .slide h2{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container .img-slider .slide p{
+    color: white;
+    background: rgba(0, 0,0,0.1);
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
