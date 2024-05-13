@@ -92,70 +92,79 @@
     height: 100vh;
     top: 0;
     left: 0;
-    overflow: hidden;
-}
-.container .title{
-
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    line-height: 1.2;
-    text-align: center;
-    color: rgb(203, 94, 5);
-    padding-top: 20px;
 }
 
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9{
+.container .slide1{
+    background: url(https://i.pinimg.com/originals/66/b9/14/66b9148c677305029a60eceb9afcc1e5.jpg);
+}
+
+.container .slide2{
+    background: url(https://punetourism.co.in/images/places-to-visit/headers/sinhagad-fort-pune-tourism-entry-fee-timings-holidays-reviews-header.jpg);
+}
+
+.container .slide3{
+    background:url(https://www.holidify.com/images/cmsuploads/compressed/Nagarkhana,_Raigad_Fort,_India_20190117110923.jpg);
+}
+
+.container .slide4{
+    background: url(https://th.bing.com/th/id/R.5bc298d793ce5bf71f4985a95e19c2ec?rik=Ce4TbK09kWf3Ig&riu=http%3a%2f%2ffastread.in%2fimages%2fuploads%2fShivneri-Fort2019.jpg&ehk=nM2Vwld0gEwAdgM7PGLu6Q%2bscTFZUlsliPbNEt80QNU%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.container .slide5{
+    background: url(https://blog.redbus.in/wp-content/uploads/2021/02/shutterstock_1039466539.jpg);
+}
+
+.container .slide6{
+    background: url(https://th.bing.com/th/id/R.cf1abb8f45f4481ebe9e4fbec6e4d810?rik=V3wLuNh0uZ0hDA&riu=http%3a%2f%2fjackscoastalheaven.com%2fimages%2fsightseeing%2fsindhudurg-fort-malvan.jpg&ehk=UeuWZDHpbJpva4Kl1%2b4U5iQ9N9n7%2fGUy%2fvu%2bFCejNDE%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.container .slide7{
+    background: url(https://e0.pxfuel.com/wallpapers/607/162/desktop-wallpaper-forts-that-prove-shivaji-maharaj-was-the-greatest-ruler-of-maharashtra-ever-raigad-fort.jpg);
+}
+
+.container .slide8{
+    background: url(https://i.ytimg.com/vi/-t6UdBWiLp4/maxresdefault.jpg);
+}
+
+.container .slide9{
+    background: url(https://www.mumbaipuneadventures.com/wp-content/uploads/2018/07/lohagad.jpg);
+}
+
+.container .slide {
+    width:100% ;
     height: 100vh;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
     position: relative;
-    left: 0;
-    overflow: hidden;
-    top: 0;
+    overflow-x: hidden;
 }
 
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 img{
-    width: 120%;
+.container .slide .info{
+    background: rgba(0,0,0,0.03);
+    width: 100%;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    animation: zoom-out 3s linear infinite;
+    top: 20%;
+    right: 26%;
+    transform: translateY(-50%);
+    padding: 40px 0px;
 }
 
-
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 .info{
-    width: 600px;
-    position: absolute;
-    top: 200px;
-    left: 100px;
+.container .slide .info h1{
     color: black;
-    animation: textup 12s linear infinite;
-    transform: translateY(100px);
+    text-align: center;
+    font-size: 2.6rem;
+    padding: 18px;
 }
 
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 h1{
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 p{
+.container .slide .info p{
+    max-width: 600px;
+    width: 90%;
+    margin: 0px auto;
     color: white;
     background: rgba(0,0,0,0.6);
-    font-size: 16px;
-    width: 60%;
-    padding: 10px;
-    border-radius: 4px;
-    line-height: 20px;
-    margin-top: 80px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.container .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 span{
-    background: #0b0115;
-    height: 1px;
-    width: 100px;
-    position: absolute;
-    left: 0;
-}
-
