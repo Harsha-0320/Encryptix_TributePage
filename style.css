@@ -107,7 +107,7 @@
 }
 
 .container .slide4{
-    background: url(https://th.bing.com/th/id/R.5bc298d793ce5bf71f4985a95e19c2ec?rik=Ce4TbK09kWf3Ig&riu=http%3a%2f%2ffastread.in%2fimages%2fuploads%2fShivneri-Fort2019.jpg&ehk=nM2Vwld0gEwAdgM7PGLu6Q%2bscTFZUlsliPbNEt80QNU%3d&risl=&pid=ImgRaw&r=0);
+    background: url(https://im.whatshot.in/img/2020/Feb/shivv-cropped-1582733580.jpg);
 }
 
 .container .slide5{
@@ -143,21 +143,27 @@
     background: rgba(0,0,0,0.03);
     width: 100%;
     position: absolute;
-    top: 20%;
-    right: 26%;
+    top: 80%;
+    right: 24%;
     transform: translateY(-50%);
     padding: 40px 0px;
 }
 
 .container .slide .info h1{
-    color: black;
+
     text-align: center;
-    font-size: 2.6rem;
-    padding: 18px;
+    font-size: 2.0rem;
+    padding: 20px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0px auto;
+    color: #FFC91A;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
 }
 
 .container .slide .info p{
-    max-width: 600px;
+    max-width: 700px;
     width: 90%;
     margin: 0px auto;
     color: white;
@@ -167,4 +173,95 @@
     line-height: 1.5em;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.container .arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    background:rgba(0,0,0,.1);
+    border-radius: 50%;
+    transform: background 500ms;
+}
+
+.container .arrow img{
+    width: 50px;
+}
+
+.container .arrow:hover{
+    background: rgba(0, 0,0,.4);
+}
+
+.container .arrow.l{
+    left: 0;
+}
+
+.container .arrow.r{
+    right: 0;
+}
+
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: #FBC87A;
+    font-size: 25px;
+    transition: 0.3s;
+    padding-bottom: 20px;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform:  scale(1.5);
+}
+
+/* Footer section */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0;
+    background: #0b0115
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    font-size: medium;
+    font-family: 'Cinzel';
+    color: #FFC91A;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.icons .fa{
+    color: #FFC91A;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+
+}
+
+.fa-heart-o{
+    color: #FFC91A;
+
+}
+
+.footer a{
+    color: #FFC91A;
 }
