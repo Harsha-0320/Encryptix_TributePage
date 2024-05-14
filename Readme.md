@@ -22,7 +22,7 @@ To view the website locally, follow these steps:
 
 ## Screenshots
 ![alt text](<Screenshots/Screenshot 2024-05-14 173233.png>)
-![alt text](<Screenshots/Screenshot 2024-05-14 173309.png>)
+![alt text](<Screenshots/Screenshot 2024-05-14 184129.png>)
 ![alt text](<Screenshots/Screenshot 2024-05-14 173332.png>)
 
 ## License
